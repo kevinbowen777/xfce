@@ -1,9 +1,10 @@
 Xfce 4.16 Documentation
-===========================
+
 
 This website provides user documentation for the latest stable version of the Xfce desktop environment. Go to Xfce 4.14 for the previous version.
 
-###Getting Started
+Getting Started
+===============
 
 Getting Started with Xfce – Starting point for anyone who wants to use Xfce
 Frequently Asked Questions – General questions relating to Xfce and their answers
@@ -11,9 +12,10 @@ Building Xfce – Instructions on how to compile Xfce from source
 How to Contribute – Detailed information for new contributors
 Bug Reporting and Fixing
 
-###Documentation for Xfce Applications
+Documentation for Xfce Applications
+======================================
 
-####Core Modules
+Core Modules
 
 - Application Finder (xfce4-appfinder) – Application to quickly run applications and commands
 - Configuration Storage System (xfconf) – D-Bus-based configuration storage system
@@ -31,7 +33,7 @@ Bug Reporting and Fixing
 - Widget Sharing Library (libxfce4ui) – Used to share commonly used Xfce widgets among the Xfce applications
 - Window Manager (xfwm4) – Handles the placement of windows on the screen
 
-####Applications
+Applications
 
 - CD Burning application (Xfburn) – A simple CD/DVD burning tool.
 - Dictionary (xfce4-dict) – allows you to search different kinds of dictionary services for words or phrases and shows you the results
