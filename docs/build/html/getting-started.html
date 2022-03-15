@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Getting Started with Xfce &#8212; Xfce 4.16 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Xfce 4.16 documentation" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="getting-started-with-xfce">
+<h1>Getting Started with Xfce<a class="headerlink" href="#getting-started-with-xfce" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Installation</p></li>
+<li><p>Running Xfce</p></li>
+<li><p>The Desktop Environment</p></li>
+<li><p>Common Tasks</p></li>
+<li><p>Further Reading</p></li>
+</ul>
+</section>
+<section id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>Xfce is a lightweight desktop environment for Unix-like operating systems. It aims to be fast and light on system resources, while still being visually appealing and easy to use.</p>
+<p>Xfce embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that provide the full functionality one can expect of a modern desktop environment. They are packaged separately and you can pick among the available packages to create the optimal personal working environment.</p>
+<p>Another priority of Xfce is an adherence to standards, specifically those defined at freedesktop.org.
+System Requirements</p>
+<p>Even though Xfce is very light-weight, there are some distribution specific minimum requirements.
+Installation</p>
+<p>The Xfce project officially only releases source code for the desktop environment. However, binary packages may have been contributed by other people for your OS or distribution. Here some links to distribution specific installation instructions:</p>
+<ul class="simple">
+<li><p>Arch</p></li>
+<li><p>Debian</p></li>
+<li><p>Fedora</p></li>
+<li><p>FreeBSD</p></li>
+<li><p>Gentoo</p></li>
+<li><p>Mageia</p></li>
+<li><p>MidnightBSD ( or possibly ‘pkg_add -r xfce4’ ? )</p></li>
+<li><p>Mythbuntu: sudo apt-get install mythbuntu-desktop</p></li>
+<li><p>NetBSD (pkg_add xfce4)</p></li>
+<li><p>Ubuntu: sudo apt-get install xubuntu-desktop (package description; direct install)</p></li>
+</ul>
+<p>Detailed instructions on compiling Xfce yourself can be found here.</p>
+</section>
+<section id="running-xfce">
+<h1>Running Xfce<a class="headerlink" href="#running-xfce" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Display Managers</p></li>
+</ul>
+<p>Xfce4-session installs a file that should add an option for display managers to run an Xfce session. The Xfce Desktop Environment does not have its own DM, but various options are available like gdm, slim, lxdm and lightdm. Check this link for details.</p>
+<ul class="simple">
+<li><p>Command line</p></li>
+</ul>
+<p>Use startxfce4 to start an Xfce session or choose Xfce Session from the login manager, which includes the session manager, the panel, the window manager and the desktop manager. See auto login from console for more information.</p>
+<p>By default, the Xfce session manager manages the startup of applications. It allows you to save your session when you quit Xfce, so that the next time you log in, the same applications will be started for you automatically.
+The Desktop Environment</p>
+<p>The Xfce Desktop Environment is not a single entity that provides all functionality, but rather it tries to adhere to the old UNIX tradition of small tools that do one job and do it well.</p>
+<p>Default Xfce session, with desktop manager and panel</p>
+<p>When you start the Xfce session for the first time, several applications are started by the Xfce session manager:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Panel</dt><dd><p>In a default session there is a full width panel at the top of the screen and a smaller one at the bottom. The Panel application manages all panels on the screen.
+The top panel shows a graphical pager with a miniature view of all workspaces, a task list showing all applications running on the current workspace and a system tray to show status icons that are used for example by some media players or instant messaging applications.
+The bottom panel contains several application launchers and a clock. You can right-click on any panel item to get a menu that allows you to change its properties, add or remove new items or to change the properties of the panel itself.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Desktop Manager</dt><dd><p>The desktop manager provides the desktop background image and two menus when you click on the desktop background. Optionally, it can show icons on the desktop, either for minimized applications or for files in the ~/Desktop folder.
+The right mouse button opens a menu that allows you to start applications. Look at the manual to find out how to change the menu contents.
+The middle mouse button (or Shift + left click) opens a list of all applications that are currently running. You can activate an application by clicking on its menu entry.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Window Manager</dt><dd><p>The Window Manager is responsible for placing the windows on the screen and provides the window borders and decorations. It allows you to move windows around by dragging the title bar, and provides title bar buttons: for example to close, minimize or maximize a window. Look at the manual for a detailed explanation of the window manager settings.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Settings Manager</dt><dd><p>The settings manager runs in the background and ensures that all Xfce applications update their settings when the user changes something within the application. It is also responsible for reading the configuration files on disk at startup. Look at the manual for a detailed explanation of the settings manager.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="common-tasks">
+<h1>Common Tasks<a class="headerlink" href="#common-tasks" title="Permalink to this headline">¶</a></h1>
+<p>This section will explain how to perform several common tasks to quickly get you started working with Xfce and familiar with its applications.</p>
+</section>
+<section id="running-programs">
+<h1>Running Programs<a class="headerlink" href="#running-programs" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Xfce Panel</dt><dd><p>The panel can be used to allow quick access to your most frequently used applications by means of launchers, these application launchers are displayed as icons on your panel that launch your specified program. The Applications Menu on the panel also contains all installed programs.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Desktop Menu</dt><dd><p>Another method for starting applications is from the desktop right-click menu. Read the Desktop Manager manual for more information on how to change the menu contents.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Application Finder</dt><dd><p>If you know the name of the application you want to launch you can use the Application Finder. To open the dialog, press Alt-F2 or choose the Run Program… option from the desktop menu.</p>
+</dd>
+</dl>
+</li>
+</ul>
+<p>Managing Windows and Workspaces</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Basic window operations</dt><dd><p>You can move a window around the screen by dragging on its title bar. A window can be closed, minimized, maximized, shaded and made sticky (make it show up on all workspaces) by using the title bar buttons.
+Right-clicking on the title bar will open a menu that gives access to all window operations.
+Shading a window, or rolling it up to hide its contents and only show the title bar, can also be accomplished by scrolling the mouse wheel while hovering over the title bar. Mouse wheel up is shade, mouse wheel down is unshade.
+If you don’t want maximized windows to cover up the entire screen, you can set workspace margins in the Settings Manager.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Application management</dt><dd><p>To see what applications are currently running, you can look at the task list on the panel. Clicking on an application in the task list will focus it, and clicking it again will hide it.
+When you click with the middle mouse button on the desktop background a list of windows is shown, ordered by workspace. You can activate the application or change workspaces by choosing the appropriate menu entry.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Workspaces</dt><dd><p>You can change workspaces by clicking on them in the graphical pager on the panel. Pressing Ctrl-Alt-LeftArrow or Ctrl-Alt-RightArrow will cycle through the workspaces. Scrolling the mouse wheel while hovering over the pager or the desktop background has the same effect.
+To add or remove workspaces, you can use the middle-click desktop menu or the settings dialog (see below).</p>
+</dd>
+</dl>
+</li>
+<li><p>Using the Settings Manager</p></li>
+</ul>
+<p>The Settings Manager provides access to the global preferences of many aspects of the Xfce Desktop Environment. You can run it by pressing its launcher on the panel, from the desktop mouse menu or by running xfce4-settings-manager.</p>
+<p>Refer to the individual manuals of the Xfce components for more information on settings specifically for that application. Don’t be afraid to explore all the settings to find out what options are available that allow you to create the best possible working environment.
+Further Reading</p>
+<p>This guide provides only a general overview of the Xfce Desktop Environment. More information is available in the manuals of the individual components of Xfce.</p>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Xfce</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Getting Started with Xfce</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#running-xfce">Running Xfce</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#common-tasks">Common Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#running-programs">Running Programs</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Xfce 4.16 documentation</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2022, Xfcedeveloper.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.4.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/getting-started.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
