@@ -2,6 +2,8 @@
 Xfce 4.16 documentation
 ***********************
 
+This website provides user documentation for the latest stable version of the Xfce desktop environment. Go to Xfce 4.14 for the previous version.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -9,8 +11,6 @@ Xfce 4.16 documentation
    _sources/getting-started/getting-started
    _sources/faq/faq
 
-
-This website provides user documentation for the latest stable version of the Xfce desktop environment. Go to Xfce 4.14 for the previous version.
 
 
 .. Contents
