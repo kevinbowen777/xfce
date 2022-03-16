@@ -10,6 +10,7 @@ This website provides user documentation for the latest stable version of the Xf
    
    _sources/getting-started/getting-started
    _sources/faq/faq
+   _sources/building/building
 
 
 

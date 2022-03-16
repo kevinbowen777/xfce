@@ -124,6 +124,8 @@ General Xfce forum
 * Xfce on Reddit
 
 
+----
+
 Keyboard Related
 ================
 
@@ -142,7 +144,7 @@ If the shortcut doesn't change, then you need to enable the feature in GTK+. Thi
 
 .. warning:: When xfsettingsd is running you must change the setting with the Xfce GUI, not through the .gtkrc-2.0 file.
 
-.. warning:: This functionality has been disabled since GTK3 which means that Xfce apps that have migrated to GTK3 (such as xfce4-terminal) do not support it. Refer to specific app's documentation to learn how to configure its shortcuts.
+.. caution:: This functionality has been disabled since GTK3 which means that Xfce apps that have migrated to GTK3 (such as xfce4-terminal) do not support it. Refer to specific app's documentation to learn how to configure its shortcuts.
 
 Is there some way to call the menu with the keyboard in Xfce?
 -------------------------------------------------------------
@@ -235,6 +237,8 @@ It is not currently possible to do this.
 
 Back To Top
 
+----
+
 Application Menu
 ================
 
@@ -290,6 +294,9 @@ Please see this wiki entry for a list of the precise commands run for each entry
 
 Back To Top
 
+
+----
+
 Desktop Manager
 ===============
 
@@ -304,6 +311,9 @@ My Xfce Desktop doesn't have any shortcut icons, why?
 You can adjust this via Settings > Desktop > Icons > Appearance.
 
 Back To Top
+
+
+----
 
 Panel
 =====
@@ -330,6 +340,9 @@ You need to add the Orage Clock to the panel. Then you can middle-click the cloc
 
 Back To Top
 
+
+----
+
 Themes
 ======
 The gtk-xfce-engine themes do not appear in the "user interface" settings dialog
@@ -347,6 +360,9 @@ Where can I find additional backgrounds and wallpapers for my desktop?
 Here is a selection of beautiful images and pointers to other sites with quality, high-resolution images.
 
 Back To Top
+
+
+----
 
 Miscellaneous
 =============
