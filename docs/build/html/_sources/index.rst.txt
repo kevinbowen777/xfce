@@ -6,12 +6,21 @@ This website provides user documentation for the latest stable version of the Xf
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-   
-   _sources/getting-started/getting-started
-   _sources/faq/faq
-   _sources/building/building
+   :caption: Getting Started:
 
+   _sources/getting-started
+   _sources/faq
+   _sources/building
+   _sources/contribute
+   _sources/bugs
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Documentation:
+
+   _sources/core/index
+   _sources/apps/index
 
 
 .. Contents
