@@ -107,7 +107,7 @@ Thunar can optionally be build with the following packages:
 * `gudev <https://sourceforge.net/projects/gudev/>`_ (required for thunar-volman)
 * `libnotify <https://github.com/GNOME/libnotify>`_ (required for mount notification support)
 
-For concrete information on the minimum required versions, check [[https://gitlab.xfce.org/xfce/thunar/-/blob/master/configure.ac.in|configure.ac.in]]
+For concrete information on the minimum required versions, check `configure.ac.in <https://gitlab.xfce.org/xfce/thunar/-/blob/master/configure.ac.in>`_
 
 ----
 
