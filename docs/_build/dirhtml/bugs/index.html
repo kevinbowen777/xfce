@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bug Reporting and Fixing &mdash; Xfce docs 4.16 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Core Modules" href="../core/" />
+    <link rel="prev" title="How to contribute to Xfce" href="../contribute/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../" class="icon icon-home"> Xfce docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../getting-started/">Getting Started with Xfce</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/">Xfce - Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../building/">Building Xfce from source</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contribute/">How to contribute to Xfce</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Bug Reporting and Fixing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#crashes">Crashes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#search-first">Search First</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#report">Report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#backtraces">Backtraces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fixing-bugs">Fixing Bugs</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Documentation:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../core/">Core Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../apps/">Applications</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">Xfce docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home"></a> &raquo;</li>
+      <li>Bug Reporting and Fixing</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/bugs.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="bug-reporting-and-fixing">
+<h1><a class="toc-backref" href="#id3">Bug Reporting and Fixing</a><a class="headerlink" href="#bug-reporting-and-fixing" title="Permalink to this headline"></a></h1>
+<p>One of the most useful tasks that we rely on the community for is the testing and reporting of bugs. Since Xfce runs on various platforms and in a variety of different setups, testing all changes, in every possible situation, is an impossible task. As such, we kindly ask our users to assist us in testing, and reporting all bugs that they may find, using our <a class="reference external" href="https://gitlab.xfce.org">issue tracker</a>.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>[[:contribute:bugs:bug-summary|Current Xfce open bugs]]</strong></p></li>
+</ul>
+</div></blockquote>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#bug-reporting-and-fixing" id="id3">Bug Reporting and Fixing</a></p>
+<ul>
+<li><p><a class="reference internal" href="#crashes" id="id4">Crashes</a></p></li>
+<li><p><a class="reference internal" href="#search-first" id="id5">Search First</a></p></li>
+<li><p><a class="reference internal" href="#report" id="id6">Report</a></p></li>
+<li><p><a class="reference internal" href="#backtraces" id="id7">Backtraces</a></p></li>
+<li><p><a class="reference internal" href="#fixing-bugs" id="id8">Fixing Bugs</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<hr class="docutils" />
+<section id="crashes">
+<h2><a class="toc-backref" href="#id4">Crashes</a><a class="headerlink" href="#crashes" title="Permalink to this headline"></a></h2>
+<p>We always try to make the software as stable as possible, but there is always a possibility a crash or segfault can occur. To problem with crashes is that they are not always reproducible by the developers, this often makes it quite hard to track-down the problem and patch the issue.</p>
+<p>Nonetheless, there are a couple of things you can do to help resolve them.</p>
+</section>
+<hr class="docutils" />
+<section id="search-first">
+<h2><a class="toc-backref" href="#id5">Search First</a><a class="headerlink" href="#search-first" title="Permalink to this headline"></a></h2>
+<p>Search the <a class="reference external" href="https://docs.xfce.org/contribute/bugs/bug-summary">Open Bug Summary</a> to see if the issue is already known. Also, look through the resolved bugs because the issue might be fixed already, but has not been released or applied downstream. Peeking the <a class="reference external" href="https://gitlab.xfce.org">GIT repository</a> might help for the latter.</p>
+<ul class="simple">
+<li><p>For a list of currently open bugs, see the [[:contribute:bugs:bug-summary|open bugs summary]].</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="report">
+<h2><a class="toc-backref" href="#id6">Report</a><a class="headerlink" href="#report" title="Permalink to this headline"></a></h2>
+<p>When writing your bug report, try to be as descriptive as possible, but avoid verbosity; Mozilla has a nice guide on <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Mozilla/QA/Bug_writing_guidelines">how to write a bug report</a>.</p>
+<p>If you have not found anything or missed it, report it in the bug tracker. Reports that only say <cite>application X crashed</cite> will be closed as invalid quickly, so try to provide a way to describe and reproduce the problem: <cite>Application X crashed when doing Y</cite>.</p>
+<p>In the description provide a short way to reproduce the crash. Also run the application in a terminal and look if there are console warnings, put those in the bug as well.</p>
+<p>If the developer cannot reproduce it, he might ask for a <cite>backtrace</cite>, read more about creating backtraces in the next section.</p>
+<p>Back To Top</p>
+</section>
+<hr class="docutils" />
+<section id="backtraces">
+<h2><a class="toc-backref" href="#id7">Backtraces</a><a class="headerlink" href="#backtraces" title="Permalink to this headline"></a></h2>
+<p>If you do get an Xfce application to crash, it’s best to detail exactly what you were doing that led to the crash. In addition, we need the //backtrace// of the crash. However most distributions by default make backtrace output useless because there binaries are optimized and do not contain human-readable information to make a relation between the compiled code and the source code (like file, function and variable-names).</p>
+<p>The sites below provide guidance from the respective distributions how to remedy this situation so you can provide all the info we need to fix your issue.</p>
+<p>In case of panel plugins there is some additional information on [[:xfce:xfce4-panel:debugging|how to start a panel plugin inside a debugger]].</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference external" href="https://wiki.archlinux.org/title/Debugging/Getting_traces">https://wiki.archlinux.org/title/Debugging/Getting_traces</a></p></li>
+<li><p><a class="reference external" href="https://wiki.debian.org/HowToGetABacktrace">https://wiki.debian.org/HowToGetABacktrace</a></p></li>
+<li><p><a class="reference external" href="https://wiki.ubuntu.com/DebuggingProgramCrash">https://wiki.ubuntu.com/DebuggingProgramCrash</a></p></li>
+<li><p><a class="reference external" href="http://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces">http://wiki.gentoo.org/wiki/Project:Quality_Assurance/Backtraces</a></p></li>
+<li><p><a class="reference external" href="http://fedoraproject.org/wiki/StackTraces">http://fedoraproject.org/wiki/StackTraces</a></p></li>
+<li><p><a class="reference external" href="https://wiki.mageia.org/en/Debugging_software_crashes">https://wiki.mageia.org/en/Debugging_software_crashes</a></p></li>
+<li><p><a class="reference external" href="http://wiki.mandriva.com/en/Development/Howto/Software_Crash">http://wiki.mandriva.com/en/Development/Howto/Software_Crash</a></p></li>
+<li><p><a class="reference external" href="http://en.opensuse.org/openSUSE:Bugreport_application_crashed">http://en.opensuse.org/openSUSE:Bugreport_application_crashed</a></p></li>
+<li><p><a class="reference external" href="https://wiki.sabayon.org/?title=Debugging_Symbols_-_splitdebug">https://wiki.sabayon.org/?title=Debugging_Symbols_-_splitdebug</a></p></li>
+</ul>
+</div></blockquote>
+<p>Back To Top</p>
+</section>
+<hr class="docutils" />
+<section id="fixing-bugs">
+<h2><a class="toc-backref" href="#id8">Fixing Bugs</a><a class="headerlink" href="#fixing-bugs" title="Permalink to this headline"></a></h2>
+<p>Once a bug has been found, the cause of the bug needs to be tracked down, and then (obviously) fixed. If you want to get involved in the actual development process of Xfce a great way to start is by solving bugs and attaching a patch file to the reported bug. ( “git format-patch” is the preferred way to create a patch file )</p>
+<p>Not familiar with git? [[contribute/dev/git/start|This manual]] will help you to get started.</p>
+<p>To get started, best read our [[contribute/dev/coding/example|beginners example on how to fix a simple xfce bug]].</p>
+<p>Back To Top</p>
+<hr class="docutils" />
+<p>start:<a href="#id1"><span class="problematic" id="id2">|</span></a>Return to Main Xfce documentation page</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../contribute/" class="btn btn-neutral float-left" title="How to contribute to Xfce" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../core/" class="btn btn-neutral float-right" title="Core Modules" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Xfce developers.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

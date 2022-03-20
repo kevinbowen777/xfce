@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>xfconf - Configuration Storage System &mdash; Xfce docs 4.16 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex/" />
+    <link rel="search" title="Search" href="../../search/" />
+    <link rel="next" title="xfdesktop - Xfce Desktop Manager" href="../xfdesktop/" />
+    <link rel="prev" title="xfce4-appfinder - Application Finder" href="../xfce4-appfinder/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../" class="icon icon-home"> Xfce docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../getting-started/">Getting Started with Xfce</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faq/">Xfce - Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../building/">Building Xfce from source</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contribute/">How to contribute to Xfce</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../bugs/">Bug Reporting and Fixing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Documentation:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../">Core Modules</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../xfce4-appfinder/">xfce4-appfinder - Application Finder</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">xfconf - Configuration Storage System</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#accessing-configuration-data">Accessing Configuration Data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#kiosk-mode">Kiosk Mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#latest-release">Latest Release</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#source-code-repository">Source Code Repository</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reporting-bugs">Reporting Bugs</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../xfdesktop/">xfdesktop - Xfce Desktop Manager</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfce4-dev-tools/">xfce4-dev-tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../exo/">Exo - Helper Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../thunar/">Thunar File Manager</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../garcon/">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../garcon/#id9">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../garcon/#id12">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfce4-panel/">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfce4-panel/#id9">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfce4-panel/#id16">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfce4-panel/#id19">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfce4-power-manager/">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfce4-session/">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfce4-session/#id7">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tumbler/">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tumbler/#id21">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tumbler/#id24">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tumbler/#id31">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libxfce4util/">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libxfce4util/#id5">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libxfce4ui/">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libxfce4ui/#id17">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libxfce4ui/#id20">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfwm4/">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfwm4/#id7">[[|Back to Top]]</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../apps/">Applications</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../">Xfce docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../">Core Modules</a> &raquo;</li>
+      <li>xfconf - Configuration Storage System</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/core/xfconf.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="xfconf-configuration-storage-system">
+<h1><a class="toc-backref" href="#id5">xfconf - Configuration Storage System</a><a class="headerlink" href="#xfconf-configuration-storage-system" title="Permalink to this headline"></a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#xfconf-configuration-storage-system" id="id5">xfconf - Configuration Storage System</a></p>
+<ul>
+<li><p><a class="reference internal" href="#introduction" id="id6">Introduction</a></p></li>
+<li><p><a class="reference internal" href="#accessing-configuration-data" id="id7">Accessing Configuration Data</a></p></li>
+<li><p><a class="reference internal" href="#kiosk-mode" id="id8">Kiosk Mode</a></p></li>
+<li><p><a class="reference internal" href="#latest-release" id="id9">Latest Release</a></p></li>
+<li><p><a class="reference internal" href="#source-code-repository" id="id10">Source Code Repository</a></p></li>
+<li><p><a class="reference internal" href="#reporting-bugs" id="id11">Reporting Bugs</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<hr class="docutils" />
+<section id="introduction">
+<h2><a class="toc-backref" href="#id6">Introduction</a><a class="headerlink" href="#introduction" title="Permalink to this headline"></a></h2>
+<p>Xfconf is a hierarchical (tree-like) configuration system where the immediate child nodes of the root are called <code class="docutils literal notranslate"><span class="pre">channels</span></code>.  All settings beneath the channel nodes are called <code class="docutils literal notranslate"><span class="pre">properties.</span></code></p>
+<p>Valid channel and property names are composed of the ASCII US-English uppercase characters A-Z, lowercase characters a-z, numerals 0-9, the dash (-), and underscore (_).  No other characters are allowed for channel names.  The less than (&lt;) and greater than (&gt;) characters (aka <code class="docutils literal notranslate"><span class="pre">angle</span> <span class="pre">brackets</span></code>) are also allowed in property names, but not in channel names.</p>
+<p>Property names are referenced by their <code class="docutils literal notranslate"><span class="pre">full</span> <span class="pre">path</span></code> underneath their channel, for example: <code class="docutils literal notranslate"><span class="pre">/main/history-window/last-accessed</span></code>.  Of course, when querying a particular property, the channel must be specified separately as well.</p>
+<p>Both channel and property names are case-insensitive.  For example, the following four all refer to the same property:</p>
+<ul class="simple">
+<li><p>Channel: ExampleApp, property: /main/history-window/last-accessed</p></li>
+<li><p>Channel: EXAMPLEAPP, property: /main/history-window/last-accessed</p></li>
+<li><p>Channel: ExampleApp, property: /Main/History-Window/Last-Accessed</p></li>
+<li><p>Channel: exampleapp, property: /MAIN/history-window/last-accessed</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="accessing-configuration-data">
+<h2><a class="toc-backref" href="#id7">Accessing Configuration Data</a><a class="headerlink" href="#accessing-configuration-data" title="Permalink to this headline"></a></h2>
+<p>Settings stored in Xfconf can be accessed in numerous ways:</p>
+<ul class="simple">
+<li><p>From within applications of Settings Manager. Most of the time, settings stored in Xfconf and configuration options presented in the GUI are tightly coupled. It means that any action of the GUI settings is automatically and immediately propagated to the configuration system and vice-versa. See also: [[xfce:xfce4-settings:xfsettingsd|Settings Daemon]].</p></li>
+<li><p>From Command Line Interface (CLI) using [[:xfce:xfconf:xfconf-query:<a href="#id1"><span class="problematic" id="id2">|</span></a>xfconf-query]].</p></li>
+<li><p>From GUI. Settings, which are not exposed in configuration dialogs, can be browsed and manipulated using [[xfce:xfce4-settings:editor|Settings Editor]].</p></li>
+<li><p>If everything else fails, settings can be edited manually. Xfconf stores all its data in [[xml-file-format|XML files]], which can be edited when Xfconf is not running. Be very careful when using this option, as it is easy to make the file unparseable or inconsistent.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="kiosk-mode">
+<h2><a class="toc-backref" href="#id8">Kiosk Mode</a><a class="headerlink" href="#kiosk-mode" title="Permalink to this headline"></a></h2>
+<p>System administrators can lock certain values or entire channels to prevent users from changing them.  In this case, the administrator may provide default values that will be used regardless of what may appear in a user-writable configuration file.  If the sysadmin does not wish to provide values, but only wants to lock a channel/property, the application’s default fallback value will be used instead.</p>
+<p>Locking a channel or property is as simple as creating a configuration file and setting either (and only either) the <code class="docutils literal notranslate"><span class="pre">locked</span></code> or <code class="docutils literal notranslate"><span class="pre">unlocked</span></code> attribute on &lt;channel&gt; or &lt;property&gt; elements that should be restricted.  This configuration file should be placed in a system location that is read by the daemon (see <code class="docutils literal notranslate"><span class="pre">File</span> <span class="pre">locations</span></code> above).</p>
+<p>Both the “locked” and <code class="docutils literal notranslate"><span class="pre">unlocked</span></code> attributes take a semicolon-separated list of system user and group names.  User names should be entered as-is, and group names should be entered with an <code class="docutils literal notranslate"><span class="pre">&#64;</span></code> symbol prepended to the group name.</p>
+<p>The “locked” attribute specifies users and groups who may not modify the property.  The <code class="docutils literal notranslate"><span class="pre">unlocked</span></code> attribute specifies users and groups who may modify the property, with other users locked out.  Only one of the two attributes may be specified for a particular channel or property.  If both are present, the <code class="docutils literal notranslate"><span class="pre">unlocked</span></code> attribute is used, and the <code class="docutils literal notranslate"><span class="pre">locked</span></code> attribute is ignored.</p>
+<p>Note that &lt;channel&gt; locking locks all properties under that channel, but &lt;property&gt; locking locks only the property with the <code class="docutils literal notranslate"><span class="pre">locked</span></code> or <code class="docutils literal notranslate"><span class="pre">unlocked</span></code> attribute; none of the sub-properties are locked unless they also contain a <code class="docutils literal notranslate"><span class="pre">locked</span></code> or <code class="docutils literal notranslate"><span class="pre">unlocked</span></code> attribute.</p>
+<p>See [[:xfce:xfce4-session:advanced#kiosk_mode|Xfce-Session Kiosk Mode]] for specific parameter used in configuring kiosk mode.</p>
+</section>
+<hr class="docutils" />
+<section id="latest-release">
+<h2><a class="toc-backref" href="#id9">Latest Release</a><a class="headerlink" href="#latest-release" title="Permalink to this headline"></a></h2>
+<p>{{rss&gt;https://archive.xfce.org/feeds/project/xfconf 1 date description 2h}}</p>
+<p><a class="reference external" href="https://archive.xfce.org/src/xfce/xfconf/">Previous Releases</a></p>
+</section>
+<hr class="docutils" />
+<section id="source-code-repository">
+<h2><a class="toc-backref" href="#id10">Source Code Repository</a><a class="headerlink" href="#source-code-repository" title="Permalink to this headline"></a></h2>
+<p><a class="reference external" href="https://gitlab.xfce.org/xfce/xfconf">https://gitlab.xfce.org/xfce/xfconf</a></p>
+</section>
+<hr class="docutils" />
+<section id="reporting-bugs">
+<h2><a class="toc-backref" href="#id11">Reporting Bugs</a><a class="headerlink" href="#reporting-bugs" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p><strong>[[:xfce:xfconf:bugs|Reporting Bugs]]</strong> – Open bug reports and how to report new bugs</p></li>
+</ul>
+<hr class="docutils" />
+<p>[[ :xfce:xfce4-settings:start:<a href="#id3"><span class="problematic" id="id4">|</span></a>Return to main xfce4-settings page]]</p>
+<p>[[:start|Back to main Xfce documentation page]]</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../xfce4-appfinder/" class="btn btn-neutral float-left" title="xfce4-appfinder - Application Finder" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../xfdesktop/" class="btn btn-neutral float-right" title="xfdesktop - Xfce Desktop Manager" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Xfce developers.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
