@@ -1,6 +1,5 @@
-***********************
 Core Modules
-***********************
+============
 
 
 Application Finder (xfce4-appfinder) – Application to quickly run applications and commands

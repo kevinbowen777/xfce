@@ -3,6 +3,8 @@ xfwm4 - Window Manager
 
 .. Contents::
 
+----
+
 xfwm is the window manager for Xfce
 
 ----
