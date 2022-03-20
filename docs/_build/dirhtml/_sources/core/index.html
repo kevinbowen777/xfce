@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Core Modules &mdash; Xfce docs 4.16 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex/" />
+    <link rel="search" title="Search" href="../../search/" />
+    <link rel="next" title="xfce4-appfinder - Application Finder" href="xfce4-appfinder/" />
+    <link rel="prev" title="Bug Reporting and Fixing" href="../bugs/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../" class="icon icon-home"> Xfce docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started/">Getting Started with Xfce</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/">Xfce - Frequently Asked Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../building/">Building Xfce from source</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contribute/">How to contribute to Xfce</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bugs/">Bug Reporting and Fixing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Documentation:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Core Modules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-appfinder/">xfce4-appfinder - Application Finder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfconf/">xfconf - Configuration Storage System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfdesktop/">xfdesktop - Xfce Desktop Manager</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-dev-tools/">xfce4-dev-tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exo/">Exo - Helper Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thunar/">Thunar File Manager</a></li>
+<li class="toctree-l2"><a class="reference internal" href="garcon/">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="garcon/#id9">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="garcon/#id12">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-panel/">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-panel/#id9">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-panel/#id16">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-panel/#id19">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-power-manager/">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-session/">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-session/#id7">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tumbler/">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tumbler/#id21">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tumbler/#id24">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tumbler/#id31">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="libxfce4util/">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="libxfce4util/#id5">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="libxfce4ui/">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="libxfce4ui/#id17">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="libxfce4ui/#id20">[[|Back To Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfwm4/">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfwm4/#id7">[[|Back to Top]]</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../apps/">Applications</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../">Xfce docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../" class="icon icon-home"></a> &raquo;</li>
+      <li>Core Modules</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/core/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="core-modules">
+<h1>Core Modules<a class="headerlink" href="#core-modules" title="Permalink to this headline"></a></h1>
+<p>Application Finder (xfce4-appfinder) – Application to quickly run applications and commands
+Configuration Storage System (xfconf) – D-Bus-based configuration storage system
+Desktop Manager (xfdesktop) – Configure the desktop background image, icons, launchers and folders
+Development Tools (xfce4-dev-tools) – A set of scripts and m4/autoconf macros that ease build system maintenance.
+Helper Applications (exo) – Manage preferred applications and edit .desktop files
+File Manager (thunar) – The fast and easy to use file manager for the Xfce Desktop
+Menu Library (garcon) – Library used for menu implementation
+Panel (xfce4-panel) – Application launchers, window buttons, applications menu, workspace switcher and more
+Power Manager (xfce4-power-manager) – Manage power sources and power consumption of devices
+Session Manager (xfce4-session) – Save the state of your desktop and restore it on the next startup
+Settings Manager (xfce4-settings) – The Settings daemon which persists many Xfce settings
+Thumbnail Service (tumbler) – A D-Bus service for applications to request thumbnails for various URI schemes and MIME types
+Utility Sharing Library (libxfce4util) – Library used to share commonly used non-GTK+ utilities among the Xfce applications
+Widget Sharing Library (libxfce4ui) – Used to share commonly used Xfce widgets among the Xfce applications
+Window Manager (xfwm4) – Handles the placement of windows on the screen</p>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Core Modules:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="xfce4-appfinder/">xfce4-appfinder - Application Finder</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-appfinder/#general">General</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-appfinder/#debugging-support">Debugging Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-appfinder/#latest-release">Latest Release</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-appfinder/#source-code-repository">Source Code Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-appfinder/#reporting-bugs">Reporting Bugs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="xfconf/">xfconf - Configuration Storage System</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="xfconf/#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfconf/#accessing-configuration-data">Accessing Configuration Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfconf/#kiosk-mode">Kiosk Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfconf/#latest-release">Latest Release</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfconf/#source-code-repository">Source Code Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfconf/#reporting-bugs">Reporting Bugs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="xfdesktop/">xfdesktop - Xfce Desktop Manager</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="xfdesktop/#general">General</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfdesktop/#minimum-requirements">Minimum Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfdesktop/#debugging-support">Debugging Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfdesktop/#latest-release">Latest Release</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfdesktop/#source-code-repository">Source code repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfdesktop/#reporting-bugs">Reporting Bugs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="xfce4-dev-tools/">xfce4-dev-tools</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-dev-tools/#xfce-build-containerized-build-environment">xfce-build containerized build environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-dev-tools/#ci-templates-for-xfce">CI templates for Xfce</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-dev-tools/#release-notes-for-4-15-0">Release notes for 4.15.0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-dev-tools/#latest-release">Latest Release</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-dev-tools/#source-code-repository">Source Code Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xfce4-dev-tools/#reporting-bugs">Reporting Bugs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="exo/">Exo - Helper Applications</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exo/#applications">Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exo/#required-packages">Required Packages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exo/#debugging-support">Debugging Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exo/#latest-release">Latest Release</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exo/#source-code-repository">Source Code Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exo/#reporting-bugs">Reporting Bugs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="thunar/">Thunar File Manager</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="thunar/#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thunar/#thunar-plugins">Thunar Plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thunar/#debugging-support">Debugging Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thunar/#standards-compliance">Standards compliance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thunar/#required-packages">Required Packages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thunar/#latest-release">Latest Release</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thunar/#source-code-repository">Source Code Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thunar/#reporting-bugs">Reporting Bugs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="garcon/">[[|Back To Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="garcon/#id9">[[|Back to Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="garcon/#id12">[[|Back To Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="xfce4-panel/">[[|Back to Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="xfce4-panel/#id9">[[|Back to Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="xfce4-panel/#id16">[[|Back to Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="xfce4-panel/#id19">[[|Back To Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="xfce4-power-manager/">[[|Back to Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="xfce4-session/">[[|Back to Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="xfce4-session/#id7">[[|Back to Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tumbler/">[[|Back To Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tumbler/#id21">[[|Back To Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tumbler/#id24">[[|Back To Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tumbler/#id31">[[|Back To Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="libxfce4util/">[[|Back to Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="libxfce4util/#id5">[[|Back to Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="libxfce4ui/">[[|Back To Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="libxfce4ui/#id17">[[|Back to Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="libxfce4ui/#id20">[[|Back To Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="xfwm4/">[[|Back to Top]]</a></li>
+<li class="toctree-l1"><a class="reference internal" href="xfwm4/#id7">[[|Back to Top]]</a></li>
+</ul>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../bugs/" class="btn btn-neutral float-left" title="Bug Reporting and Fixing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="xfce4-appfinder/" class="btn btn-neutral float-right" title="xfce4-appfinder - Application Finder" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Xfce developers.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
