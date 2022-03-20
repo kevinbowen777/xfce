@@ -57,8 +57,6 @@ can be setup using the configure flag ``-enable-debug`` (check the output of
     `no'      Disables all sanity checks. Don't use this unless you know
               exactly what you are doing.
 
-Back to Top
-
 ----
 
 Latest Release
@@ -67,8 +65,6 @@ Latest Release
 {{rss>https://archive.xfce.org/feeds/project/exo 1 date description 2h}}
 
 `Previous Versions <https://archive.xfce.org/src/xfce/exo>`_
-
-Back to Top
 
 ----
 
@@ -83,9 +79,6 @@ Reporting Bugs
 --------------
 
 * **[[bugs|Reporting Bugs]]** -- Open bug reports and how to report new bugs
-
-
-Back to Top
 
 ----
 

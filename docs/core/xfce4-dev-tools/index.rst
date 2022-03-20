@@ -1,6 +1,5 @@
-***************
 xfce4-dev-tools
-***************
+===============
 
 .. Contents::
 
@@ -10,11 +9,10 @@ The Xfce development tools are a collection of tools and macros for
 Xfce developers and people that want to build Xfce from Git In addition
 it contains the Xfce developer's handbook.
 
-
 ----
 
 xfce-build containerized build environment
-==========================================
+------------------------------------------
 
 This project also contains the code to build and deploy xfce-build to the
 `xfce-build area on Docker Hub <https://hub.docker.com/repository/docker/xfce/xfce-build/>`_.
@@ -33,7 +31,7 @@ this repository, and is built via the build job in [`.gitlab-ci.yml`](.gitlab-ci
 ----
 
 CI templates for Xfce
-=====================
+---------------------
 
 The [CI folder](ci/) contains the ``build_project.yml`` template for building the various
 Xfce projects, as well as supporting scripts such as ``build_libs.sh`` which handles
@@ -43,7 +41,7 @@ code in each project.
 ----
 
 Release notes for 4.15.0
-========================
+------------------------
 
 [Please note that this is a development release.]
 
@@ -97,33 +95,28 @@ quality. Thanks to Jason Yavorska and Simon Steinbeiss.
 xfce-get-translations, xfce-update-news) to help our maintainers to do
 releases
 
-Back to Top
-
 ----
 
 Latest Release
-==============
+--------------
+
 {{rss>https://archive.xfce.org/feeds/project/xfce4-dev-tools 1 date description}}
 
 `Previous Releases <https://archive.xfce.org/src/xfce/xfce4-dev-tools/>`_
 
-Back to Top
-
 ----
 
 Source Code Repository
-======================
+----------------------
 
 https://gitlab.xfce.org/xfce/xfce4-dev-tools
 
 ----
 
 Reporting Bugs
-==============
+--------------
 
 * **[[:xfce:xfce4-dev-tools:bugs|Reporting Bugs]]** -- Open bug reports and how to report new bugs
-
-Back to Top
 
 ----
 

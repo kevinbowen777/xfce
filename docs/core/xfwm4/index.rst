@@ -1,17 +1,14 @@
-~~NOTOC~~
-{{ :xfce:xfce.xfwm4.png?no link|}}
-====== xfwm4 - Window Manager ======
+xfwm4 - Window Manager
+======================
 
-  * **[[#Configuration|Configuration]]**
-  * **[[#Latest Release|Latest Release]]**
-  * **[[#Source Code Repository|Source Code Repository]]**
-  * **[[#Reporting Bugs|Reporting Bugs]]**
+.. Contents::
 
 xfwm is the window manager for Xfce
 
 ----
 
-===== General =====
+General
+-------
 
   * **[[introduction|Introduction]]** -- General information about //xfwm4//
   * **[[getting-started|Getting Started]]** -- Handling windows  and workspaces with //xfwm4//
@@ -23,7 +20,8 @@ xfwm is the window manager for Xfce
 
 ----
 
-===== Configuration =====
+Configuration
+-------------
 
   * **[[preferences|Preferences]]** -- Configure window behavior and shortcuts
   * **[[wmtweaks|Window Manager Tweaks]]** -- Fine-tune window behavior and effects
@@ -31,23 +29,27 @@ xfwm is the window manager for Xfce
 
 ----
 
-===== Latest Release =====
+Latest Release
+--------------
+
 {{rss>https://archive.xfce.org/feeds/project/xfwm4 1 date description 2h}}
 
-[[https://archive.xfce.org/src/xfce/xfwm4/|Previous Releases]]
-
-[[|Back to Top]]
-----
-===== Source Code Repository =====
-[[https://gitlab.xfce.org/xfce/xfwm4|]]
+`Previous Releases <https://archive.xfce.org/src/xfce/xfwm4/>`_
 
 ----
 
-===== Reporting Bugs =====
+Source Code Repository
+----------------------
+
+https://gitlab.xfce.org/xfce/xfwm4
+
+----
+
+Reporting Bugs
+--------------
 
   * **[[:xfce:xfwm4:bugs|Reporting Bugs]]** -- Open bug reports and how to report new bugs
 
-
-[[|Back to Top]]
 ----
-[[:start|Back to main Xfce documentation page]]
+
+:start|Back to main Xfce documentation page

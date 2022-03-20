@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>[[|Back To Top]] &mdash; Xfce docs 4.16 documentation</title>
+  <title>Tumbler - Thumbnail Service &mdash; Xfce docs 4.16 documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -18,8 +18,8 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex/" />
     <link rel="search" title="Search" href="../../search/" />
-    <link rel="next" title="[[|Back to Top]]" href="../libxfce4util/" />
-    <link rel="prev" title="[[|Back to Top]]" href="../xfce4-session/" /> 
+    <link rel="next" title="libxfce4util - Utility sharing library" href="../libxfce4util/" />
+    <link rel="prev" title="xfce4-session - Session Manager" href="../xfce4-session/" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -54,27 +54,25 @@
 <li class="toctree-l2"><a class="reference internal" href="../xfce4-dev-tools/">xfce4-dev-tools</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../exo/">Exo - Helper Applications</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../thunar/">Thunar File Manager</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../garcon/">[[|Back To Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../garcon/#id9">[[|Back to Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../garcon/#id12">[[|Back To Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../xfce4-panel/">[[|Back to Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../xfce4-panel/#id9">[[|Back to Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../xfce4-panel/#id16">[[|Back to Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../xfce4-panel/#id19">[[|Back To Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../xfce4-power-manager/">[[|Back to Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../xfce4-session/">[[|Back to Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../xfce4-session/#id7">[[|Back to Top]]</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">[[|Back To Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id21">[[|Back To Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id24">[[|Back To Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id31">[[|Back To Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../libxfce4util/">[[|Back to Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../libxfce4util/#id5">[[|Back to Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../libxfce4ui/">[[|Back To Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../libxfce4ui/#id17">[[|Back to Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../libxfce4ui/#id20">[[|Back To Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../xfwm4/">[[|Back to Top]]</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../xfwm4/#id7">[[|Back to Top]]</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../garcon/">garcon - menu library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfce4-panel/">xfce4-panel - Xfce Panel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfce4-power-manager/">xfce4-power-manager - Power Manager</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfce4-session/">xfce4-session - Session Manager</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Tumbler - Thumbnail Service</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#configuration">Configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#available-plugins">Available Plugins</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#standards-compliance">Standards compliance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#debugging-support">Debugging Support</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#required-packages">Required packages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#latest-release">Latest Release</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#source-code-repository">Source Code Repository</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reporting-bugs">Reporting Bugs</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../libxfce4util/">libxfce4util - Utility sharing library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../libxfce4ui/">libxfce4ui - widget sharing library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../xfwm4/">xfwm4 - Window Manager</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../apps/">Applications</a></li>
@@ -95,9 +93,9 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../../" class="icon icon-home"></a> &raquo;</li>
           <li><a href="../">Core Modules</a> &raquo;</li>
-      <li>[[|Back To Top]]</li>
+      <li>Tumbler - Thumbnail Service</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../_sources/core/tumbler.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/core/tumbler/index.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -105,28 +103,33 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <p>~~NOTOC~~
-{{ :xfce:xfce.tumbler.png?no link|}}
-====== Tumbler - Thumbnail Service ======</p>
-<blockquote>
-<div><ul class="simple">
-<li><p><strong>[[#Introduction|Introduction]]</strong></p></li>
-<li><p><strong>[[#Configuration|Configuration]]</strong></p></li>
-<li><p><strong>[[#Available Plugins|Available Plugins]]</strong></p></li>
-<li><p><strong>[[#Standards compliance|Standards compliance]]</strong></p></li>
-<li><p><strong>[[#Debugging Support|Debugging Support]]</strong></p></li>
-<li><p><strong>[[#Required packages|Required packages]]</strong></p></li>
-<li><p><strong>[[#Latest Release|Latest Release]]</strong></p></li>
-<li><p><strong>[[#Source Code Repository|Source Code Repository]]</strong></p></li>
-<li><p><strong>[[#Reporting Bugs|Reporting Bugs]]</strong></p></li>
+  <section id="tumbler-thumbnail-service">
+<h1><a class="toc-backref" href="#id5">Tumbler - Thumbnail Service</a><a class="headerlink" href="#tumbler-thumbnail-service" title="Permalink to this headline"></a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#tumbler-thumbnail-service" id="id5">Tumbler - Thumbnail Service</a></p>
+<ul>
+<li><p><a class="reference internal" href="#introduction" id="id6">Introduction</a></p></li>
+<li><p><a class="reference internal" href="#configuration" id="id7">Configuration</a></p></li>
+<li><p><a class="reference internal" href="#available-plugins" id="id8">Available Plugins</a></p></li>
+<li><p><a class="reference internal" href="#standards-compliance" id="id9">Standards compliance</a></p></li>
+<li><p><a class="reference internal" href="#debugging-support" id="id10">Debugging Support</a></p></li>
+<li><p><a class="reference internal" href="#required-packages" id="id11">Required packages</a></p></li>
+<li><p><a class="reference internal" href="#latest-release" id="id12">Latest Release</a></p></li>
+<li><p><a class="reference internal" href="#source-code-repository" id="id13">Source Code Repository</a></p></li>
+<li><p><a class="reference internal" href="#reporting-bugs" id="id14">Reporting Bugs</a></p></li>
 </ul>
-</div></blockquote>
+</li>
+</ul>
+</div>
 <hr class="docutils" />
-<p>===== Introduction =====</p>
+<section id="introduction">
+<h2><a class="toc-backref" href="#id6">Introduction</a><a class="headerlink" href="#introduction" title="Permalink to this headline"></a></h2>
 <p>Tumbler is a D-Bus service for applications to request thumbnails for
 various URI schemes and MIME types. It is an implementation of the
 thumbnail management D-Bus specification described on</p>
-<p>[[<a class="reference external" href="https://wiki.gnome.org/DraftSpecs/ThumbnailerSpec">https://wiki.gnome.org/DraftSpecs/ThumbnailerSpec</a>]]</p>
+<p><a class="reference external" href="https://wiki.gnome.org/DraftSpecs/ThumbnailerSpec">https://wiki.gnome.org/DraftSpecs/ThumbnailerSpec</a></p>
 <p>written in an object-oriented fashion using GLib and GObject. Its
 modular architecture makes it very flexible and useful in many
 situations. It provides plugin interfaces for extending the URI schemes
@@ -135,9 +138,11 @@ on disk. Tumbler’s functionality can also be extended via specialized
 thumbnailer services implemented in accordance to the thumbnail
 management D-Bus specification.</p>
 <p>Tumbler is used by Thunar, Ristretto, Xfce.</p>
+</section>
 <hr class="docutils" />
-<p>===== Configuration =====</p>
-<p>You can override the default cache directory ‘’$HOME/.cache’’ in which, besides other non-essential files, thumbnails are stored:</p>
+<section id="configuration">
+<h2><a class="toc-backref" href="#id7">Configuration</a><a class="headerlink" href="#configuration" title="Permalink to this headline"></a></h2>
+<p>You can override the default cache directory <code class="docutils literal notranslate"><span class="pre">$HOME/.cache</span></code> in which, besides other non-essential files, thumbnails are stored:</p>
 <blockquote>
 <div><ul class="simple">
 <li><dl class="simple">
@@ -159,44 +164,50 @@ management D-Bus specification.</p>
 </ul>
 </div></blockquote>
 <p>After that, re-login, make sure the variable is set, and check if it works fine.</p>
-<p>Tumbler has a configuration file ‘’tumbler.rc’’ described in a [[available_plugins#configuration|dedicated page]].</p>
-<p>Tumbler allows to load a number [[:xfce:tumbler:available_plugins:<a href="#id1"><span class="problematic" id="id2">|</span></a>additional tumbler plugins]] to support different file formats. Most plugins are loaded by default, if the required libraries are provided.</p>
-<hr class="docutils" />
-<p>===== Standards compliance =====</p>
-<dl class="simple">
-<dt>Tumbler supports and implements the following standards/specifications:</dt><dd><ul class="simple">
-<li><p>[[<a class="reference external" href="https://standards.freedesktop.org/basedir-spec/basedir-spec-latest">https://standards.freedesktop.org/basedir-spec/basedir-spec-latest</a>.html|XDG Base Directory Specification]]</p></li>
-<li><p>[[<a class="reference external" href="https://specifications.freedesktop.org/thumbnail-spec/thumbnail-spec-latest">https://specifications.freedesktop.org/thumbnail-spec/thumbnail-spec-latest</a>.html|Thumbnail Managing Standard]]</p></li>
-<li><p>[[<a class="reference external" href="https://wiki.gnome.org/DraftSpecs">https://wiki.gnome.org/DraftSpecs</a>/ThumbnailerSpec|Thumbnail Management D-Bus Specification]]</p></li>
-<li><p>[[<a class="reference external" href="https://www.freedesktop.org/wiki/Specifications/file-uri-spec/">https://www.freedesktop.org/wiki/Specifications/file-uri-spec/</a><a href="#id3"><span class="problematic" id="id4">|</span></a>File URI Specification]]</p></li>
-</ul>
-</dd>
-</dl>
-<section id="back-to-top">
-<h1>[[<a href="#id5"><span class="problematic" id="id6">|</span></a>Back To Top]]<a class="headerlink" href="#back-to-top" title="Permalink to this headline"></a></h1>
-<p>===== Debugging Support =====</p>
-<p>Tumbler currently supports four different levels of debugging support,
-which can be setup using the configure flag <a href="#id7"><span class="problematic" id="id8">`</span></a>–enable-debug’ (check the
-output of <a href="#id9"><span class="problematic" id="id10">`</span></a>configure –help’):</p>
-<blockquote>
-<div><dl class="simple">
-<dt><a href="#id11"><span class="problematic" id="id12">`</span></a>full’  Use this if you want to debug Tumbler to locate a bug. The</dt><dd><p>build will most probably be noticably slower. This is also
-recommended for people that want to develop Tumbler stuff.</p>
-</dd>
-<dt><a href="#id13"><span class="problematic" id="id14">`</span></a>yes’  This is the default for git snapshot builds. It adds all</dt><dd><p>kinds of checks to the code, and is therefore likely to run
-slower. Use this if you want to develop for Tumbler (e.g.
-writing Tumbler extensions and such).</p>
-</dd>
-<dt><a href="#id15"><span class="problematic" id="id16">`</span></a>minimum’  This is the default for release builds, and presents the</dt><dd><p>recommended behaviour.</p>
-</dd>
-<dt><a href="#id17"><span class="problematic" id="id18">`</span></a>no’  Disables all sanity checks. Don’t use this unless you know</dt><dd><p>exactly what you do.</p>
-</dd>
-</dl>
-</div></blockquote>
+<p>Tumbler has a configuration file <code class="docutils literal notranslate"><span class="pre">tumbler.rc</span></code> described in a [[available_plugins#configuration|dedicated page]].</p>
 </section>
-<section id="id21">
-<h1>[[<a href="#id19"><span class="problematic" id="id20">|</span></a>Back To Top]]<a class="headerlink" href="#id21" title="Permalink to this headline"></a></h1>
-<p>===== Required packages =====</p>
+<hr class="docutils" />
+<section id="available-plugins">
+<h2><a class="toc-backref" href="#id8">Available Plugins</a><a class="headerlink" href="#available-plugins" title="Permalink to this headline"></a></h2>
+<p>Tumbler allows to load a number [[:xfce:tumbler:available_plugins:<a href="#id1"><span class="problematic" id="id2">|</span></a>additional tumbler plugins]] to support different file formats. Most plugins are loaded by default, if the required libraries are provided.</p>
+</section>
+<hr class="docutils" />
+<section id="standards-compliance">
+<h2><a class="toc-backref" href="#id9">Standards compliance</a><a class="headerlink" href="#standards-compliance" title="Permalink to this headline"></a></h2>
+<p>Tumbler supports and implements the following standards/specifications:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html">XDG Base Directory Specification</a></p></li>
+<li><p><a class="reference external" href="https://specifications.freedesktop.org/thumbnail-spec/thumbnail-spec-latest.html">Thumbnail Managing Standard</a></p></li>
+<li><p><a class="reference external" href="https://wiki.gnome.org/DraftSpecs/ThumbnailerSpec">Thumbnail Management D-Bus Specification</a></p></li>
+<li><p><a class="reference external" href="https://www.freedesktop.org/wiki/Specifications/file-uri-spec/">File URI Specification</a></p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="debugging-support">
+<h2><a class="toc-backref" href="#id10">Debugging Support</a><a class="headerlink" href="#debugging-support" title="Permalink to this headline"></a></h2>
+<p>Tumbler currently supports four different levels of debugging support,
+which can be setup using the configure flag <code class="docutils literal notranslate"><span class="pre">--enable-debug</span></code> (check the
+output of <code class="docutils literal notranslate"><span class="pre">configure</span> <span class="pre">--help</span></code>):</p>
+<div class="highlight-rst notranslate"><div class="highlight"><pre><span></span>`full&#39; Use this if you want to debug Tumbler to locate a bug. The
+build will most probably be noticably slower. This is also
+recommended for people that want to develop Tumbler stuff.
+
+`yes&#39;  This is the default for git snapshot builds. It adds all
+kinds of checks to the code, and is therefore likely to run
+slower. Use this if you want to develop for Tumbler (e.g.
+writing Tumbler extensions and such).
+
+`minimum&#39;  This is the default for release builds, and presents the
+recommended behaviour.
+
+`no&#39;  Disables all sanity checks. Don&#39;t use this unless you know
+exactly what you do.
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="required-packages">
+<h2><a class="toc-backref" href="#id11">Required packages</a><a class="headerlink" href="#required-packages" title="Permalink to this headline"></a></h2>
 <p>Tumbler depends on the following packages:</p>
 <blockquote>
 <div><ul class="simple">
@@ -218,32 +229,36 @@ writing Tumbler extensions and such).</p>
 </ul>
 </div></blockquote>
 </section>
-<section id="id24">
-<h1>[[<a href="#id22"><span class="problematic" id="id23">|</span></a>Back To Top]]<a class="headerlink" href="#id24" title="Permalink to this headline"></a></h1>
-<p>===== Latest Release =====
-{{rss&gt;https://archive.xfce.org/feeds/project/tumbler 1 date description 2h}}</p>
-<p>[[<a class="reference external" href="https://archive.xfce.org/src/xfce/tumbler/">https://archive.xfce.org/src/xfce/tumbler/</a><a href="#id25"><span class="problematic" id="id26">|</span></a>Previous Releases]]</p>
-<p>[[<a href="#id27"><span class="problematic" id="id28">|</span></a>Back to Top]]</p>
 <hr class="docutils" />
-<p>===== Source Code Repository =====</p>
-<p>[[<a class="reference external" href="https://gitlab.xfce.org/xfce/tumbler">https://gitlab.xfce.org/xfce/tumbler</a>]]</p>
+<section id="latest-release">
+<h2><a class="toc-backref" href="#id12">Latest Release</a><a class="headerlink" href="#latest-release" title="Permalink to this headline"></a></h2>
+<p>{{rss&gt;https://archive.xfce.org/feeds/project/tumbler 1 date description 2h}}</p>
+<p><a class="reference external" href="https://archive.xfce.org/src/xfce/tumbler/">Previous Releases</a></p>
+</section>
+<hr class="docutils" />
+<section id="source-code-repository">
+<h2><a class="toc-backref" href="#id13">Source Code Repository</a><a class="headerlink" href="#source-code-repository" title="Permalink to this headline"></a></h2>
+<p><a class="reference external" href="https://gitlab.xfce.org/xfce/tumbler">https://gitlab.xfce.org/xfce/tumbler</a></p>
+</section>
+<hr class="docutils" />
+<section id="reporting-bugs">
+<h2><a class="toc-backref" href="#id14">Reporting Bugs</a><a class="headerlink" href="#reporting-bugs" title="Permalink to this headline"></a></h2>
 <blockquote>
 <div><ul class="simple">
 <li><p><strong>[[:xfce:tumbler:bugs|Reporting Bugs]]</strong> – Open bug reports and how to report new bugs</p></li>
 </ul>
 </div></blockquote>
+<hr class="docutils" />
+<p>:start:<a href="#id3"><span class="problematic" id="id4">|</span></a>Return to Main Xfce documentation page</p>
 </section>
-<section id="id31">
-<h1>[[<a href="#id29"><span class="problematic" id="id30">|</span></a>Back To Top]]<a class="headerlink" href="#id31" title="Permalink to this headline"></a></h1>
-<p>[[ :start:<a href="#id32"><span class="problematic" id="id33">|</span></a>Return to Main Xfce documentation page]]</p>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../xfce4-session/" class="btn btn-neutral float-left" title="[[|Back to Top]]" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../libxfce4util/" class="btn btn-neutral float-right" title="[[|Back to Top]]" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../xfce4-session/" class="btn btn-neutral float-left" title="xfce4-session - Session Manager" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../libxfce4util/" class="btn btn-neutral float-right" title="libxfce4util - Utility sharing library" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

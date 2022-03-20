@@ -1,12 +1,7 @@
-~~NOTOC~~
-{{ :xfce:xfce.settings.manager.png?no link|}}
-====== xfce4-settings - Settings Manager ======
+xfce4-settings - Settings Manager
+=================================
 
-  * **[[#Dialogs|Dialogs]]**
-  * **[[#Other Dialogs|Other Dialogs]]**
-  * **[[#Latest Release|Latest Release]]**
-  * **[[#Source Code Repository|Source Code Repository]]**
-  * **[[#Reporting Bugs|Reporting Bugs]]**
+.. Contents::
 
 ----
 
@@ -15,14 +10,16 @@ centralize the configuration management of the Xfce system.
 
 ----
 
-===== Settings =====
+Settings
+--------
 
   * **[[xfsettingsd|Settings Daemon]]** -- A daemon that runs in the background to apply all the settings
   * **[[manager|Settings Manager]]** -- Dialog that lists all the settings dialogs provided by this package (listed below) or other core modules of Xfce
 
 ----
 
-===== Dialogs =====
+Dialogs
+-------
 
   * **[[accessibility|Accessibility]]** -- Improve keyboard and mouse accessibility
   * **[[appearance|Appearance]]** -- Customize the look of your desktop
@@ -35,7 +32,8 @@ centralize the configuration management of the Xfce system.
 
 ----
 
-===== Other Dialogs =====
+Other Dialogs
+-------------
 
 The following items are often visible in the settings manager, but not part of the //xfce4-settings// package. You can click the links below to redirect to the correct place on this website.
 
@@ -49,25 +47,27 @@ The following items are often visible in the settings manager, but not part of t
 
 ----
 
-===== Latest Release =====
+Latest Release
+--------------
+
 {{rss>https://archive.xfce.org/feeds/project/xfce4-settings 1 date description 2h}}
 
-[[https://archive.xfce.org/src/xfce/xfce4-settings/|Previous Releases]]
+`Previous Releases <https://archive.xfce.org/src/xfce/xfce4-settings/>`_
 
-[[|Back to Top]]
 ----
 
-===== Source Code Repository =====
+Source Code Repository
+----------------------
 
 https://gitlab.xfce.org/xfce/xfce4-settings
 
 ----
 
-===== Reporting Bugs =====
+Reporting Bugs
+--------------
 
   * **[[xfce:xfce4-settings:bugs|Reporting Bugs]]** -- Open bug reports and how to report new bugs
 
-
-[[|Back To Top]]
 ----
-[[:start|Back to main Xfce documentation page]]
+
+:start|Back to main Xfce documentation page

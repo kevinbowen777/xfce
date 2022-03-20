@@ -23,17 +23,18 @@ Window Manager (xfwm4) – Handles the placement of windows on the screen
    :maxdepth: 2
    :caption: Core Modules:
 
-   xfce4-appfinder
-   xfconf
-   xfdesktop
-   xfce4-dev-tools
-   exo
-   thunar
-   garcon
-   xfce4-panel
-   xfce4-power-manager
-   xfce4-session
-   tumbler
-   libxfce4util
-   libxfce4ui
-   xfwm4
+   xfce4-appfinder/index
+   xfconf/index
+   xfdesktop/index
+   xfce4-dev-tools/index
+   exo/index
+   thunar/index
+   garcon/index
+   xfce4-panel/index
+   xfce4-power-manager/index
+   xfce4-session/index
+   xfce4-settings/index
+   tumbler/index
+   libxfce4util/index
+   libxfce4ui/index
+   xfwm4/index

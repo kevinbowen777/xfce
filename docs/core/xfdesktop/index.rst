@@ -1,6 +1,5 @@
-********************************
 xfdesktop - Xfce Desktop Manager
-********************************
+================================
 
 .. Contents::
 
@@ -18,7 +17,7 @@ It can bring up an applications menu and a list of all running applications when
 ----
 
 General
-=======
+-------
 
 * **[[usage|Usage]]** -- Overview of the Desktop Manager
 * **[[preferences|Preferences]]** -- Configuring the desktop
@@ -28,7 +27,7 @@ General
 ----
 
 Minimum Requirements
-====================
+--------------------
 
 * intltool 0.31
 * GTK+ 3.22.0
@@ -46,7 +45,7 @@ Minimum Requirements
 ----
 
 Debugging Support
-=================
+----------------
 
 xfdesktop currently supports three different levels of debugging support,
 which can be setup using the configure flag ``--enable-debug`` (check the output
@@ -63,7 +62,7 @@ of ``configure --help``):
 ----
 
 Latest Release
-==============
+--------------
 
 {{rss>https://archive.xfce.org/feeds/project/xfdesktop 1 date description 2h}}
 
@@ -72,14 +71,14 @@ Latest Release
 ----
 
 Source code repository
-======================
+----------------------
 
 https://gitlab.xfce.org/xfce/xfdesktop
 
 ----
 
 Reporting Bugs
-==============
+--------------
 
   * **[[:xfce:xfdesktop:bugs|Reporting Bugs]]** -- Open bug reports and how to report new bugs
 

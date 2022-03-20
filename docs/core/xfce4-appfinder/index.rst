@@ -1,6 +1,5 @@
-************************************
 xfce4-appfinder - Application Finder
-************************************
+====================================
 
 .. Contents::
 
@@ -10,9 +9,10 @@ The Application Finder is a program to find and launch installed applications on
 
 .. Tip:: You can use the Application Finder to quickly add [[:xfce:xfce4-panel:launcher|launchers]] to your [[:xfce:xfce4-panel:|panel]] - simply drag an item onto your desired panel and it will automatically create a launcher for that application.</note>
 
+----
 
 General
-=======
+-------
 
 * **[[usage|Usage]]** -- Overview of the Application Finder
 * **[[preferences|Preferences]]** -- Configure the behaviour of the application and create custom actions
@@ -21,7 +21,7 @@ General
 ----
 
 Debugging Support
-=================
+-----------------
 
 xfce4-appfinder currently supports three different levels of debugging support,
 which can be setup using the configure flag ``--enable-debug`` (check the output of ``configure --help``):
@@ -36,30 +36,26 @@ which can be setup using the configure flag ``--enable-debug`` (check the output
 ----
 
 Latest Release
-==============
+--------------
 
 {{rss>https://archive.xfce.org/feeds/project/xfce4-appfinder 1 date description 2h}}
 
 `Previous Releases <https://archive.xfce.org/src/xfce/xfce4-appfinder/>`_
 
-Back to Top
-
 ----
 
 Source Code Repository
-======================
+----------------------
 
 https://gitlab.xfce.org/xfce/xfce4-appfinder
 
 ----
 
 Reporting Bugs
-==============
+--------------
 
 * **[[bugs|Reporting Bugs]]** -- Open bug reports and how to report new bugs
 
-
 ----
-Back to Top
 
 start|Back to main Xfce documentation page

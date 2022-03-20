@@ -33,7 +33,7 @@ This website provides user documentation for the latest stable version of the Xf
 Getting Started
 ---------------
 
-* Getting Started with Xfce – Starting point for anyone who wants to use Xfce
+* :ref::`Getting Started with Xfce` – Starting point for anyone who wants to use Xfce
 * Frequently Asked Questions – General questions relating to Xfce and their answers
 * Building Xfce – Instructions on how to compile Xfce from source
 * How to Contribute – Detailed information for new contributors

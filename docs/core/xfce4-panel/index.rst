@@ -1,23 +1,17 @@
-~~NOTOC~~
-{{ :xfce:xfce.panel.png?no link|}}
-====== xfce4-panel - Xfce Panel ======
+xfce4-panel - Xfce Panel
+========================
 
-The Xfce Panel is part of the Xfce Desktop Environment and features application launchers, panel menus, a workspace switcher and more. Many aspects of the panel can be configured through the GUI, but also by GTK+ style properties and hidden Xfconf settings. 
-
-  * **[[#General|General]]**
-  * **[[#Internal Plugins|Internal Plugins]]**
-  * **[[#External Plugins|External Plugins]]**
-  * **[[#Advanced|Advanced - Debugging Xfce Panel]]**
-  * **[[#Required Packages|Required Packages]]**
-  * **[[#Latest Release|Latest Release]]**
-  * **[[#Source Code Repository|Source Code Repository]]**
-  * **[[#Reporting Bugs|Reporting Bugs]]**
-
-
+.. Contents::
 
 ----
 
-===== General =====
+The Xfce Panel is part of the Xfce Desktop Environment and features application launchers, panel menus, a workspace switcher and more. Many aspects of the panel can be configured through the GUI, but also by GTK+ style properties and hidden Xfconf settings. 
+
+----
+
+General
+-------
+
   * **[[getting-started|Getting Started]]** -- Starting the Xfce Panel for the first time
   * **[[add-new-items|Add New Items]]** -- Add new plugins to the Xfce Panel
   * **[[preferences|Preferences]]** -- Configure the Xfce Panel
@@ -26,7 +20,8 @@ The Xfce Panel is part of the Xfce Desktop Environment and features application 
 
 ----
 
-===== Internal Plugins =====
+Internal Plugins
+----------------
 
   * **[[actions|Action Buttons]]** -- Adds system action buttons to the panel
   * **[[applicationsmenu|Applications Menu]]** -- Adds a menu containing categories of installed applications
@@ -40,10 +35,12 @@ The Xfce Panel is part of the Xfce Desktop Environment and features application 
   * **[[windowmenu|Window Menu]]** -- Switch between open windows using a menu
   * **[[pager|Workspace Switcher]]** -- Switch between virtual desktops
 
-[[|Back to Top]]
+
 ----
 
-===== External Plugins =====
+External Plugins
+----------------
+
   * **[[:panel-plugins:xfce4-battery-plugin:start|Battery]]** -- A battery monitor panel plugin for Xfce4 compatible with APM and ACPI, for Linux and *BSD. 
   * **[[:panel-plugins:xfce4-calculator-plugin:start|Calculator]]** -- a calculator plugin for the Xfce4 panel.
   * **[[:panel-plugins:xfce4-clipman-plugin:start|Clipman]]** -- A clipboard manager for Xfce
@@ -78,48 +75,54 @@ The Xfce Panel is part of the Xfce Desktop Environment and features application 
   * **[[:panel-plugins:xfce4-whiskermenu-plugin:start|Whiskermenu]]** -- A menu that provides access to favorites, recently used, and searching installed applications. 
   * **[[:panel-plugins:xfce4-xkb-plugin:start|Xkb]]** -- Setup and use multiple (currently up to 4 due to X11 protocol limitation) keyboard layouts. 
 
-[[|Back to Top]]
 ----
 
-===== Advanced =====
+Advanced
+--------
 
   * **[[debugging|Debugging]]** -- Debugging plugins and the panel
 
 ----
 
-===== Required Packages =====
+Required Packages
+-----------------
 
-  * [[https://gitlab.xfce.org/xfce/exo|exo]]
-  * [[https://gitlab.xfce.org/xfce/garcon|garcon]]
-  * [[https://developer.gnome.org/gio/|GIO]]
-  * [[https://wiki.gnome.org/Projects/GLib|GLib]]
-  * [[https://www.gtk.org|GTK+]]
-  * [[https://gitlab.xfce.org/xfce/libxfce4ui|libxfce4ui]]
-  * [[https://gitlab.xfce.org/xfce/libxfce4util|libxfce4util]]
-  * libwnck
-  * [[https://gitlab.xfce.org/xfce/xfconf|xfconf]]
+* `exo <https://gitlab.xfce.org/xfce/exo>`_
+* `garcon <https://gitlab.xfce.org/xfce/garcon>`_
+* `GIO <https://docs.gtk.org/gio/>`_
+* `GLib <https://wiki.gnome.org/Projects/GLib>`_
+* `GTK+ <https://www.gtk.org>`_
+* `libxfce4ui <https://gitlab.xfce.org/xfce/libxfce4ui>`_
+* `libxfce4util <https://gitlab.xfce.org/xfce/libxfce4util>`_
+* libwnck
+* `xfconf <https://gitlab.xfce.org/xfce/xfconf>`_
 
 
-For specific information on the minimum required versions, check [[https://gitlab.xfce.org/xfce/xfce4-panel/-/blob/master/configure.ac.in|configure.ac.in]]===== Required Packages =====
+For specific information on the minimum required versions, check `configure.ac.in <https://gitlab.xfce.org/xfce/xfce4-panel/-/blob/master/configure.ac.in>`_
 
 ----
 
-===== Latest Release =====
+Latest Release
+--------------
+
 {{rss>https://archive.xfce.org/feeds/project/xfce4-panel 1 date description 2h}}
 
-[[https://archive.xfce.org/src/xfce/xfce4-panel/|Previous Releases]]
-
-[[|Back to Top]]
-----
-===== Source Code Repository =====
-[[https://gitlab.xfce.org/xfce/xfce4-panel|]]
+`Previous Releases <https://archive.xfce.org/src/xfce/xfce4-panel/>`_
 
 ----
-===== Reporting Bugs =====
 
-  * **[[:xfce:xfce4-panel:bugs|Reporting Bugs]]** -- Open bug reports and how to report new bugs
+Source Code Repository
+----------------------
 
+https://gitlab.xfce.org/xfce/xfce4-panel
 
-[[|Back To Top]]
 ----
-[[:start|Back to main Xfce documentation page]]
+
+Reporting Bugs
+--------------
+
+* **[[:xfce:xfce4-panel:bugs|Reporting Bugs]]** -- Open bug reports and how to report new bugs
+
+----
+
+:start|Back to main Xfce documentation page

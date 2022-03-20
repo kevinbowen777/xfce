@@ -1,13 +1,12 @@
-*************************************
 xfconf - Configuration Storage System
-*************************************
+=====================================
 
 .. Contents::
 
 ----
 
 Introduction
-============
+------------
 
 Xfconf is a hierarchical (tree-like) configuration system where the immediate child nodes of the root are called ``channels``.  All settings beneath the channel nodes are called ``properties.``
 
@@ -25,7 +24,7 @@ Both channel and property names are case-insensitive.  For example, the followin
 ----
 
 Accessing Configuration Data
-============================
+-----------------------------
 
 Settings stored in Xfconf can be accessed in numerous ways:
 
@@ -37,7 +36,7 @@ Settings stored in Xfconf can be accessed in numerous ways:
 ----
 
 Kiosk Mode
-==========
+----------
 
 System administrators can lock certain values or entire channels to prevent users from changing them.  In this case, the administrator may provide default values that will be used regardless of what may appear in a user-writable configuration file.  If the sysadmin does not wish to provide values, but only wants to lock a channel/property, the application's default fallback value will be used instead.
    
@@ -54,7 +53,7 @@ See [[:xfce:xfce4-session:advanced#kiosk_mode|Xfce-Session Kiosk Mode]] for spec
 ----
 
 Latest Release
-==============
+--------------
 
 {{rss>https://archive.xfce.org/feeds/project/xfconf 1 date description 2h}}
 
@@ -63,14 +62,14 @@ Latest Release
 ----
 
 Source Code Repository
-======================
+----------------------
 
 https://gitlab.xfce.org/xfce/xfconf
 
 ----
 
 Reporting Bugs
-==============
+--------------
 
 * **[[:xfce:xfconf:bugs|Reporting Bugs]]** -- Open bug reports and how to report new bugs
 

@@ -26,7 +26,7 @@ Introduction
 Thunar Plugins
 --------------
 
-Thunar plugins can be installed as separate, additional packages in order to extend the functionality of Thunar. Most Thunar plugins offer additional options on files in the context menu or via shortcut. The interface which is used by thunar plugins is the [[https://git.xfce.org/xfce/thunar/tree/thunarx|thunarx API]].
+Thunar plugins can be installed as separate, additional packages in order to extend the functionality of Thunar. Most Thunar plugins offer additional options on files in the context menu or via shortcut. The interface which is used by thunar plugins is the `thunarx API <https://git.xfce.org/xfce/thunar/tree/thunarx>`_.
 
 * **[[.:bulk-renamer:|Bulk Renamer]]** -- rename multiple files at once
 * **[[custom-actions|Custom Actions]]** -- custom commands associated with common mime-types or extensions
@@ -36,16 +36,12 @@ Thunar plugins can be installed as separate, additional packages in order to ext
 * **[[thunar-volman|Volume Manager (thunar-volman)]]** -- Automatic management of removable devices in Thunar
 * **[[thunar-vcs-plugin|VCS Plugin (thunar-vcs-plugin)]]** -- adds Subversion and GIT actions to the context menu
 
-Back to Top
-
 ----
 
 Other Thunar Related Packages
 
   * **[[unix-filesystem#gnome_virtual_file_system|Gnome Virtual File System]]** --  required for trash support, mounting removable media, and [[unix-filesystem#remote_file_systems|remote filesystems]]
   * **[[:xfce:tumbler:start:|Tumbler]]** -- the remote thumbnail service for Thunar
-
-Back to Top
 
 ----
 
@@ -64,8 +60,6 @@ Thunar currently supports four different levels of debugging support, which can 
 
 For some additional build & debug hints, as well check the `Thunar Wiki pages <https://wiki.xfce.org/thunar/dev>`_.
 
-Back to Top
-
 ----
 
 Standards compliance
@@ -80,8 +74,6 @@ Thunar supports the following standards/specifications:
 * `Thumbnail Managing Standard <https://freedesktop.org/wiki/Specifications/thumbnails>`_
 * `File URI Specification <https://freedesktop.org/wiki/Specifications/file-uri-spec>`_
 * `Desktop Trash Can Specification <https://freedesktop.org/wiki/Specifications/trash-spec>`_
-
-Back to Top
 
 ----
 
@@ -117,7 +109,6 @@ Latest Release
 {{rss>https://archive.xfce.org/feeds/project/thunar 1 date description 2h}}
 
 `Previous Releases <https://archive.xfce.org/src/xfce/thunar>`_
-Back to Top
 
 ----
 
@@ -135,8 +126,6 @@ Reporting Bugs
 --------------
 
 * **[[bugs|Reporting Bugs]]** -- Open bug reports and how to report new bugs
-
-Back to Top
 
 ----
 
