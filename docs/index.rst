@@ -7,11 +7,11 @@ This website provides user documentation for the latest stable version of the Xf
    :maxdepth: 2
    :caption: Getting Started:
 
-   getting-started
-   faq
-   building
-   contribute
-   bugs
+   xfce/getting-started/index
+   xfce/faq/index
+   xfce/building/index
+   xfce/contribute/index
+   xfce/bugs/index
 
 
 .. toctree::
