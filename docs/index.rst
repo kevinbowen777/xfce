@@ -232,4 +232,4 @@ Check the `sitemap </start?do=index>`__ of this wiki to see all
 available wiki pages.
 
 .. |image1| image:: ../images/xfce-64x64.png
-   :target: ../images/xfce-64x64.png 
+   :target: ../images/xfce-64x64.png
