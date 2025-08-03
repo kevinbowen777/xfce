@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Xfce docs'
-copyright = '2022, Xfce developers'
+copyright = '2025, Xfce developers'
 author = 'Xfce developers'
 
 # The full version, including alpha/beta/rc tags
-release = '4.16'
+release = '4.20'
 
 
 # -- General configuration ---------------------------------------------------
