@@ -18,7 +18,7 @@ Getting Started
 
 -  `Getting Started with Xfce </xfce/getting-started>`__ -- Starting
    point for anyone who wants to use Xfce
--  `Frequently Asked Questions </faq>`__ -- General questions relating
+-  :doc:`Frequently Asked Questions </faq>` -- General questions relating
    to Xfce and their answers
 -  `Building Xfce </xfce/building>`__ -- Instructions on how to compile
    Xfce from source
@@ -232,3 +232,4 @@ Check the `sitemap </start?do=index>`__ of this wiki to see all
 available wiki pages.
 
 .. |image1| image:: ../images/xfce-64x64.png
+   :target: ../images/xfce-64x64.png 
