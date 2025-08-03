@@ -7,9 +7,9 @@ This website provides user documentation for the latest stable version
 of the Xfce desktop environment. Go to `Xfce 4.18 <../4.18/>`__ for the
 previous version.
 
--  `Core Modules <#Core Modules>`__
--  `Applications <#Applications>`__
--  `External Plugins <#External Plugins>`__
+-  `Core Modules <#Core Modules>`_
+-  `Applications <#Applications>`_
+-  `External Plugins <#External Plugins>`_
 
 --------------
 
@@ -231,4 +231,4 @@ light-weight applications, recommended by Xfce users.
 Check the `sitemap </start?do=index>`__ of this wiki to see all
 available wiki pages.
 
-.. |image1| image:: /xfce-64x64.png
+.. |image1| image:: ../images/xfce-64x64.png
